@@ -1,0 +1,25 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+.VENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large files
+final project/
+
+# Ignore output directories
+output/
