@@ -13,13 +13,15 @@ venv/
 ENV/
 .venv/
 .VENV/
-
+*.rar
+*.zip
+*.pth
 # Ignore system files
 .DS_Store
 Thumbs.db
 
 # Ignore large files
-final project/
+final project/**/*.nii.gz
 
 # Ignore output directories
 output/
